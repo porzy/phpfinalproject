@@ -1,0 +1,106 @@
+/*Tyler Porznak
+//dec 3, 2018
+//web dev 2
+//final project*/
+body{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+
+
+#loginbar{
+	text-align: right;
+}
+#searchbar{
+	text-align: right;
+	padding: 10px;
+	padding-right: 0px;
+}
+
+li{
+	list-style-type: none;
+
+}
+
+#menu{
+	background-color: #70a7f9;
+	height: 30px;
+	border-radius: 10px;
+}
+
+#menu li{
+	display: inline;
+	padding: 10px;
+}
+#all_blogs{
+	width: 40%;
+	float:right;
+	word-wrap: break-word;
+}
+
+#blogs{
+	width: 60%;
+	margin: auto;
+	word-wrap: break-word;
+}
+
+#all_images{
+	width: 40%;
+	float:left;
+}
+#footer{
+	position: fixed;
+	bottom: 0;
+	width: 80%;
+}
+
+#blogsearch{
+
+	padding:10px;
+	width: 50%;
+	margin: auto;
+
+}
+
+#imagesearch{
+
+	padding:10px;
+	width: 50%;
+	margin: auto;
+
+}
+
+#users{
+	padding:10px;
+}
+table{
+	width: 40%;
+	margin: auto;
+}
+table th{
+	background-color: grey;
+}
+table tr:nth-child(odd){
+	background-color: #c9cacc; 
+}
+
+#editusers{
+	width: 30%;
+	margin: auto;
+}
+
+#comments{
+	width: 30%;
+	margin: auto;
+	border-radius: 10px;
+}
+#usercomment{
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
